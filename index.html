@@ -32,18 +32,25 @@
           </form>
         </div>
       </script>
-    
-    
 
-    
-
-
-
-
-
+      <script id="comment-template" type="text/x-lodash-template">
+       <div>
+         <p><%= comment %></p>
+         <footer>Posted by: <%= commenter %></footer>
+       </div>
+     </script>
 
 
-    
+
+
+
+
+
+
+
+
+
+
     <!-- Open this file and call `mocha.run()` in console to run tests -->
     <div id="mocha"></div>
     <script src="node_modules/mocha/mocha.js"></script>
